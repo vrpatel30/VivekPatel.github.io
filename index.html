@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>portfolio</title>
+    <script src="https://use.fontawesome.com/22b3d39815.js"></script>
+  </head>
+  <body>
+    <main class="profile">
+      <div class="main-page-data">
+        <img src="data/Vivek.jpeg" alt="profilr pic" />
+        <h1>Vivek Patel</h1>
+        <p>Web Developer, Software Engineer</p>
+        <div class="main-page-btns">
+          <a
+            href="data/Vivek Resume.pdf"
+            download="Vivek Resume.pdf"
+            target="_blank"
+            ><i class="fa fa-arrow-down" aria-hidden="true"></i> Resume</a
+          >
+          <a href="#contact-me">Contact Me</a>
+        </div>
+      </div>
+    </main>
+
+    <section class="about-me">
+      <div class="about-me-content">
+        <div class="left-div">
+          <h1>About Me and Academic Honesty</h1>
+          <p>
+            Flexible hard worker ready to learn and contribute to team success.
+            Outgoing student pursuing flexible part-time employment with weekend
+            and evening shift options. Utilizing my skill and knowledge to the
+            best of my abilities and contribute positively to my personal growth
+            of the organization.
+          </p>
+          <span class="date"><label>Date:</label> April 9, 2022</span>
+        </div>
+        <div class="right-div">
+          <h1>Basic Information</h1>
+          <section class="basic-info">
+            <div class="info-labels">
+              <label class="label">NAME:</label>
+              <label class="label">DATE:</label>
+              <label class="label">SECTION:</label>
+              <label class="label">COURSE:</label>
+              <label class="label">INSTRUCTOR:</label>
+            </div>
+            <div class="info-data">
+              <span class="data">Vivek Patel</span>
+              <span class="data">April 14, 2022</span>
+              <span class="data">WEB222NII</span>
+              <span class="data">Web Programming Principles</span>
+              <span class="data">Mark meritt</span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="education">
+      <div class="item">
+        <div class="left">
+          <h3>DIPLOMA</h3>
+          <p>2021 - 2023(expected)</p>
+        </div>
+        <div class="right">
+          <h3>Computer Programming</h3>
+          <span>SENECA COLLEGE OF APPLIED ARTS AND TECHNOLOGY</span>
+          <!-- <p>Under the supervision of Mark meritt</p>
+          <p>Awarded with all the scholarships of the world.</p> -->
+        </div>
+      </div>
+      <div class="item">
+        <div class="left">
+          <h3>DIPLOMA</h3>
+          <p>2017 - 2021</p>
+        </div>
+        <div class="right">
+          <h3>Computer Engineering</h3>
+          <span>GUJRAT TECHNOLOGICAL UNIVERSITY</span>
+          <!-- <p>Under the supervision of Dr. Awesome</p>
+          <p>Awarded with all the scholarships of the world.</p> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-me" class="contact-me">
+      <form action="" method="post" id="form">
+        <div class="left-form">
+          <div class="input-field">
+            <label>Name</label>
+            <input type="text" id="name" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field">
+            <label>Email</label>
+            <input type="text" id="email" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field">
+            <label>Address</label>
+            <input type="text" id="address" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field">
+            <label>City</label>
+            <input list="cities" name="cities" id="city" />
+            <datalist id="cities">
+              <option value="Toronto"></option>
+              <option value="Quebec City"></option>
+              <option value="Calgary"></option>
+              <option value="Ottawa"></option>
+              <option value="Edmonton"></option>
+              <option value="Vancouver"></option>
+              <option value="Montreal"></option>
+              <option value="Winnipeg"></option>
+              <option value="Halifax"></option>
+              <option value="Hamilton"></option>
+              <option value="Victoria"></option>
+              <option value="Edmonton"></option>
+            </datalist>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field">
+            <label>Postal code</label>
+            <input type="text" id="postal-code" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+        </div>
+        <div class="right-form">
+          <div class="input-field">
+            <label>Phone number</label>
+            <input type="text" id="phone-no" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field">
+            <div class="checks" id="checks">
+              <input
+                type="radio"
+                name="reason"
+                id="question"
+                value="Question"
+              />
+              <label>Question</label>
+              <input type="radio" name="reason" id="comment" value="Comment" />
+              <label>Comment</label>
+              <input
+                type="radio"
+                name="reason"
+                id="hiring"
+                value="Hiring"
+                checked
+              />
+              <label>Hiring</label>
+            </div>
+            <small>Error message</small>
+          </div>
+          <div class="input-field hourly-rate">
+            <label>Hourly rate</label>
+            <input type="text" id="hourly-rate" />
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <div class="input-field textarea">
+            <label>Message</label>
+            <br />
+            <textarea
+              name="comment"
+              id="textarea"
+              cols="26"
+              rows="5"
+            ></textarea>
+            <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <small>Error message</small>
+          </div>
+          <br />
+          <button type="submit" id="submit-btn" class="button">submit</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
